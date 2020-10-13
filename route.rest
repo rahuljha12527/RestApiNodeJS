@@ -3,3 +3,19 @@
 
 ###
  http://localhost:3000/subscribers/12
+
+
+###
+ POST   http://localhost:3000/subscribers
+
+ Content-Type: application/json
+
+{
+    "name":"Amazing Person",
+    "subscribedToChannel":"Rahul jha"
+
+}
+
+###
+
+DELETE  
